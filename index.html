@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sports Maa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="topbar" aria-label="Sports Maa header">
+        <a class="brand" href="/" aria-label="Sports Maa home">
+          <img src="./Sports Maa Logo PNG.png" alt="Sports Maa" />
+        </a>
+      </header>
+
+      <section class="hero" aria-label="Sports Maa countdown gallery">
+        <div class="hero-copy">
+          <h1>Coming Soon</h1>
+        </div>
+
+        <div class="gallery-wrap">
+          <button class="stack-button" type="button" aria-label="Show previous countdown photo">
+            <span class="stack" id="photoStack" aria-hidden="true"></span>
+          </button>
+
+          <article class="feature-card" aria-live="polite">
+            <div class="image-frame">
+              <img id="featureImage" src="" alt="" />
+            </div>
+            <div class="feature-meta">
+              <div>
+                <p class="meta-label">Now showing</p>
+                <h2 id="featureTitle"></h2>
+              </div>
+              <div class="controls" aria-label="Gallery controls">
+                <button id="prevButton" type="button" aria-label="Previous photo">‹</button>
+                <button id="nextButton" type="button" aria-label="Next photo">›</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
