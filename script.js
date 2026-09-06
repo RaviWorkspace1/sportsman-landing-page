@@ -1,11 +1,13 @@
 const photos = [
-  "./48 days.png",
-  "./49 days.png",
-  "./50 days.png",
-  "./51 days.png",
-  "./52 days.png",
-  "./53 days.png",
-  "./54 days.png",
+ "./46 days.png",
+"./47 days.png",
+"./48 days.png",
+"./49 days.png",
+"./50 days.png",
+"./51 days.png",
+"./52 days.png",
+"./53 days.png",
+"./54 days.png",
 ];
 
 const featureImage = document.querySelector("#featureImage");
