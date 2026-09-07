@@ -1,5 +1,6 @@
 const photos = [
- "./46 days.png",
+"./45 days.png",
+"./46 days.png",
 "./47 days.png",
 "./48 days.png",
 "./49 days.png",
